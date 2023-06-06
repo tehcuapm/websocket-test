@@ -29,7 +29,7 @@
 
     const nickname = window.prompt("Choisissez votre nickname");
 
-    socket.emit("chat message", "Hi !", "Server")
+    socket.emit("chat message", `Hi ! ${nickname}`, "Server")
 
     const messages = document.getElementById('messages');
     const form = document.getElementById('form');

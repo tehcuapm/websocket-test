@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "npm run build && node build/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "Dintris",
@@ -16,5 +16,9 @@
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.6.2"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
   }
 }
